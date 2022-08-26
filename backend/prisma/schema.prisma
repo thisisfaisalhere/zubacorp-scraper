@@ -14,6 +14,6 @@ model companies {
   id                Int      @id @default(autoincrement())
   createdAt         DateTime @default(now())
   updatedAt         DateTime @updatedAt
-  company_name      String   @db.VarChar(255)
+  companyName       String   @db.VarChar(255)
   cin               String   @db.VarChar(255)
 }
