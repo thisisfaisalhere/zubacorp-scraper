@@ -36,6 +36,8 @@
     "react/jsx-closing-bracket-location": [1, "line-aligned"],
     "no-restricted-exports": "off",
     "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn"
+    "react-hooks/exhaustive-deps": "warn",
+    "react/jsx-wrap-multilines": "off",
+    "object-curly-newline": "off"
   }
 }
